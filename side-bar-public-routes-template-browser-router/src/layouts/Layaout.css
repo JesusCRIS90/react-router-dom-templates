@@ -1,0 +1,19 @@
+.main-layout {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+/* Adjust layout for larger screens */
+@media (min-width: 1200px) {
+  .main-layout {
+    grid-template-columns: 15% auto;
+  }
+}
+
+.center-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as necessary */
+}

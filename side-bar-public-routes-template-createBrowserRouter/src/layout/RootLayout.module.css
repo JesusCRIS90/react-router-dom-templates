@@ -1,0 +1,13 @@
+.root-layout {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust layout for larger screens
+@media (min-width: 1200px) {
+  .root-layout {
+    grid-template-columns: 15% auto;
+  }
+} */
